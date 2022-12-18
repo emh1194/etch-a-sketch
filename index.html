@@ -13,14 +13,14 @@
     </header>
 <main class="main">
     <div class="settings">
-        <input id="color" class="colorPicker" value="#333333">
+        <input id="color" type='color' value="#333333" />
         <button id="colorBtn">Monochrome</button>
         <button id="rainbowBtn">Polychrome</button>
-        <button id="eraser">Eraser</button>
+        <button id="eraserBtn">Eraser</button>
         <button id="clear">Clear</button>
-        <div id="sizeValue" class="size-value"></div>
-        <input type="range" id="sizeSlider"
-            value="16" min="1" max="100">
+        <div id="sizeValue" class="size-value">16 x 16</div>
+        <input id="sizeSlider" type="range"
+            value="16" min="1" max="64" />
     </div>
     <div id="grid" class="grid"></div>
 </main>
