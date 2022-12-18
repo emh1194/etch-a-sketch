@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Eric's Etch-A-Sketch</h1>
+    </header>
+<main class="main">
+    <div class="settings">
+        <input id="color" class="colorPicker" value="#333333">
+        <button id="colorBtn">Monochrome</button>
+        <button id="rainbowBtn">Polychrome</button>
+        <button id="eraser">Eraser</button>
+        <button id="clear">Clear</button>
+        <div id="sizeValue" class="size-value"></div>
+        <input type="range" id="sizeSlider"
+            value="16" min="1" max="100">
+    </div>
+    <div id="grid" class="grid"></div>
+</main>
+<footer class="footer">
+    <p>
+        Made with love on Spring St.
+    </p>
+</footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
