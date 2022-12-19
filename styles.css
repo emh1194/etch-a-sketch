@@ -1,5 +1,30 @@
-:root {
-    --primary-dark: #333;
-    --primary-light: #ededed;
-    --secondary-light: #fefefe;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(54, 72, 54), white);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid {
+    height: 500px;
+    width: 500px;
+    border: solid 1px black;
+    box-shadow: rgba(0, 0, 0, 0.28) 0px 3px 8px;
+    background-color: white;
+    display: grid;
+}
+
+.sizeSelect {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   padding-bottom: 6px;
+}
+
+.active {
+    background-color: black;
 }
